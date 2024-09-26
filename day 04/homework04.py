@@ -36,7 +36,7 @@ my_name -> Nika
 #my_name = Nika
 
 print('quotes")
-#print('quotes")
+#print("quotes") or print('quotes')
 
 print(5 ++ 5)
 #print(5 + 5)
