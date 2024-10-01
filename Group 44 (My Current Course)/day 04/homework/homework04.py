@@ -26,19 +26,19 @@ print("Arithmetic mean of this numbers is" , first_random_number + second_random
 
 #5)დაუშვით 5 შეცდომა და გვერდით კომენტარის სახით მიუწერეთ სწორი ვერსია (ახსენით რა არის Debugging)
 
-print("hello world)      
-# print("hello world")
+# print("hello world)      
+# # print("hello world")
 
-my variable = 21 
-#my_variable = 21
+# my variable = 21 
+# #my_variable = 21
 
-my_name -> Nika
-#my_name = Nika
+# my_name -> Nika
+# #my_name = Nika
 
-print('quotes")
-#print("quotes") or print('quotes')
+# print('quotes")
+# #print("quotes") or print('quotes')
 
-print(5 ++ 5)
-#print(5 + 5)
+# print(5 ++ 5)
+# #print(5 + 5)
 
 #Debugging არის პროცესი, რომელიც მოიცავს კოდში არსებული შეცდომების პოვნასა და მათ აღმოფხვრას. 
