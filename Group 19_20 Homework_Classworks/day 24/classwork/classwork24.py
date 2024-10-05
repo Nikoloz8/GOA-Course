@@ -16,3 +16,15 @@ list1 = [1, 3, 7, 9]
 list2 = [2, 4, 6, 8]
 list1.extend(list2)
 print(list1)
+
+#ასევე შესაძლებელია ლისთიდან ნებისმიერი ელემენტის ამოღება ფუნქცია remove()-ს დახმარებით.
+
+fruits = ["apple", "banana", "grape"]
+fruits.remove("apple")
+print(fruits)
+
+#როგორც შეგვიძლია ლისთიდან ნებისმიერი ელემენტის ამოღება, ასევე შეგვიძლია ჩასმაც insert() ფუნქციის დახმარებით.
+
+cars = ["Audi RS6", "Nissan GTR", "Nissan Silvia S14"]
+cars.insert(0, "Dodge Charger") #ინსერთ ფუნქციაში პირველად აუცილებლად ეწერება ინდექსი, შემდეგ კი ელემენტი, რისი ჩამატებაც გვინდა.
+print(cars)
