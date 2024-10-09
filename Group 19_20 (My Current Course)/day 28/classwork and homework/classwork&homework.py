@@ -83,9 +83,42 @@ age = int(input("Enter your age: "))
 print("User are over 18 years old:", age > 18, "User are less than 20 years old:", 20 > age)
 
 # 10) ჩამოწერეთ ხუთ-უთი მაგალითი ყველა ლოგიკურ ოპერატორზე >, <, <=, >=,  !=, ==.
+5 > 3 # True
+10 > 15 # False
+7 > 7 # False
+20 > 10 # True
+100 > 50 # True
 
-Logical_Operators = 5 > 7, 7 < 5, 4 <= 4, 64 >= 64, 5 != 6, 6 == 1
-print(Logical_Operators)
+3 < 5 # True
+15 < 10 # False
+7 < 7 # False
+10 < 20 # True
+50 < 100 # True
+
+5 <= 5 # True
+3 <= 4 # True
+10 <= 10 # True
+15 <= 12 # False
+8 <= 9 # True
+
+5 >= 5 # True
+10 >= 7 # True
+4 >= 6 # False
+15 >= 15 # True
+8 >= 3 # True
+
+5 != 3 # True
+10 != 10 # False
+7 != 8 # True
+12 != 15 # True
+6 != 6 # False
+
+5 == 5 # True
+10 == 5 # False
+8 == 8 # True
+3 == 2 # False
+15 == 15 # True
+
 
 # 11) მომხმარებელს პირველ ინფუთში მთელი რიცხვი, ხოლო მეორე ინფუთში ათწილადი შემოატანინეთ.
 # საბოლოოდ შეადარეთ ცვლადების მნიშვნელობების მონაცემთა ტიპები.
