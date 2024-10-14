@@ -55,7 +55,7 @@ body {
   }
 
   .input1{
-    background-color: rgb(245, 245, 255); 
+    background-color: #ffffff; 
   }
 
   .input2{
@@ -65,3 +65,12 @@ body {
   .input3{
     background-color: #ffffff; 
   }
+
+  .button{
+    width: 80px;
+    height: 30px;
+    background-color: #8a2be2;
+    border-color: #483D8B;
+    border-radius: 10px;  
+    color: #ffffff;
+}
