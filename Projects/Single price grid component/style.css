@@ -1,10 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #e6eff6;
+}
 
+.container{
+    display: flex;
+    justify-content: center;
+    height: 97vh;  /* viewport height 97% (100-ზე scroll უჩნდებოდა), ეს ელემენტის სიმაღლეს ხდის ბრაუზერის ფანჯრის სიმაღლის ტოლს */
+    align-items: center;
 }
 
 .parent{
-    width: 630px;
+    width: 640px;
     height: 480px;
     background-color: #ffffff;
     border-radius: 6px;
@@ -20,17 +31,116 @@ body{
 .child2{
     width: 50%;
     height: 50%;
-    background-color: red;
+    background-color: #2bb3b1;
+    border-bottom-left-radius: 6px;
 }
 
 .child3{
     width: 50%;
     height: 50%;
-    background-color: red;
+    background-color: #4abebd;
+    border-bottom-right-radius: 6px;
 }
 
 h1{
     color: #4fc2b7;
+    margin-left: 40px;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 45px;
 }
+
+.money-back{
+    color: #cde362;
+    margin-top: 35px;
+    margin-left: 40px;
+    font-family: Karla;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.tutorial-access1{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #c0c4ce;
+    font-family: Karla;
+    font-weight: 400;
+}
+
+.tutorial-access2{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #c0c4ce;
+    font-family: Karla;
+    font-weight: 400;
+}
+
+.subscription{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 16px;
+    color: #e0fafa;
+}
+
+.price{
+    margin-left: 40px;
+    margin-top: 25px;
+    display: inline-block;
+    font-family: Karla;
+    font-size: 30px;
+    color: #f7f9f8;
+}
+
+.period{
+    display: inline-block;   
+    font-family: Karla;
+    font-size: 16px; 
+    color: #98eef3;
+    font-weight: 400;
+}
+
+.price-and-time{
+    margin-top: 8px;
+    margin-left: 40px;
+    margin-bottom: 18px;
+    color: #c0e7f2;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    background-color: #bfdf32;
+    color: #ffffff;
+    border: none;
+    margin-left: 40px;
+    border-radius: 6px;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.why-us{
+    font-family: Karla;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #f7fafa;
+}
+
+.why-us-part{
+    font-family: Karla;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    color: #9fdce6;
+}
+
 
 
