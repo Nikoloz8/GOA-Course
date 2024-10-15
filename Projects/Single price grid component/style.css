@@ -53,11 +53,11 @@ h1{
 
 .money-back{
     color: #cde362;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-left: 40px;
     font-family: Karla;
-    font-weight: 900;
-    font-size: 16px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .tutorial-access1{
@@ -65,15 +65,17 @@ h1{
     margin-left: 40px;
     color: #c0c4ce;
     font-family: Karla;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .tutorial-access2{
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: 40px;
     color: #c0c4ce;
     font-family: Karla;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .subscription{
@@ -86,8 +88,6 @@ h1{
 }
 
 .price{
-    margin-left: 40px;
-    margin-top: 25px;
     display: inline-block;
     font-family: Karla;
     font-size: 30px;
@@ -100,6 +100,14 @@ h1{
     font-size: 16px; 
     color: #98eef3;
     font-weight: 400;
+    margin-left: 10px;
+}
+
+.center-period-vertically{
+    margin-top: 25px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .price-and-time{
@@ -141,6 +149,7 @@ button{
     margin-bottom: 5px;
     color: #9fdce6;
 }
+
 
 
 
