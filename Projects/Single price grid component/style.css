@@ -16,7 +16,7 @@ body{
 
 .parent{
     width: 640px;
-    height: 480px;
+    height: 474px;
     background-color: #ffffff;
     border-radius: 6px;
     display: flex;
@@ -24,63 +24,65 @@ body{
 }
 
 .child1{
-    width: 100%;
-    height: 50%;
+    width: 640%;
+    height: 170px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
 }
 
 .child2{
-    width: 50%;
-    height: 50%;
+    width: 240px;
+    height: 215px;
     background-color: #2bb3b1;
     border-bottom-left-radius: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
 }
 
 .child3{
-    width: 50%;
-    height: 50%;
+    width: 240px;
+    height: 215px;
     background-color: #4abebd;
     border-bottom-right-radius: 6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
 }
 
 h1{
     color: #4fc2b7;
-    margin-left: 40px;
     font-family: Karla;
     font-weight: 700;
-    font-size: 28px;
-    margin-top: 45px;
+    font-size: 22px;
 }
 
 .money-back{
     color: #cde362;
-    margin-top: 30px;
-    margin-left: 40px;
+    margin-top: 24px;
     font-family: Karla;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .tutorial-access1{
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 12px;
     color: #c0c4ce;
     font-family: Karla;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .tutorial-access2{
     margin-top: 8px;
-    margin-left: 40px;
     color: #c0c4ce;
     font-family: Karla;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .subscription{
-    margin-top: 40px;
-    margin-left: 40px;
     font-family: Karla;
     font-weight: 700;
     font-size: 16px;
@@ -90,43 +92,40 @@ h1{
 .price{
     display: inline-block;
     font-family: Karla;
-    font-size: 30px;
+    font-size: 26px;
     color: #f7f9f8;
 }
 
 .period{
     display: inline-block;   
     font-family: Karla;
-    font-size: 16px; 
+    font-size: 12px; 
     color: #98eef3;
     font-weight: 400;
-    margin-left: 10px;
+    margin-left: 14px;
 }
 
 .center-period-vertically{
-    margin-top: 25px;
-    margin-left: 40px;
+    margin-top: 24px;
     display: flex;
     align-items: center;
 }
 
 .price-and-time{
-    margin-top: 8px;
-    margin-left: 40px;
+    margin-top: 16px;
     margin-bottom: 18px;
     color: #c0e7f2;
     font-family: Karla;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 button{
-    width: 250px;
+    width: 100%;
     height: 50px;
     background-color: #bfdf32;
     color: #ffffff;
     border: none;
-    margin-left: 40px;
     border-radius: 6px;
     font-family: Karla;
     font-weight: 700;
@@ -136,18 +135,76 @@ button{
 .why-us{
     font-family: Karla;
     font-size: 16px;
-    margin-left: 40px;
-    margin-top: 40px;
     margin-bottom: 20px;
     color: #f7fafa;
+    font-weight: 400;
 }
 
 .why-us-part{
     font-family: Karla;
     font-size: 12px;
-    margin-left: 40px;
     margin-bottom: 5px;
     color: #9fdce6;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 600px) {
+    .parent{
+        border: none;
+    }
+    
+    .child1{
+        border-top-left-radius: 6px;    
+        border-top-right-radius: 6px;    
+        width: 400px;
+        height: 300px;
+    
+    }
+    
+    .child2{
+        width: 400px;
+        height: 300px;
+        border-radius: none;
+    }
+    
+    .child3{
+        border-bottom-left-radius: 6px;    
+        border-bottom-right-radius: 6px;
+        height: 300px;
+        width: 400px;
+    }
+    
+    }
+
+
+@media screen and (max-width: 376px) {
+.parent{
+    border: none;
+}
+
+.child1{
+    border-top-left-radius: 6px;    
+    border-top-right-radius: 6px;    
+    width: 232px;
+    height: 222px;
+
+}
+
+.child2{
+    width: 232px;
+    height: 222px;
+    border-radius: none;
+
+}
+
+.child3{
+    border-bottom-left-radius: 6px;    
+    border-bottom-right-radius: 6px;
+    height: 222px;
+    width: 232px;
+}
+
 }
 
 
