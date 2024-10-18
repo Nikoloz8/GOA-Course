@@ -92,3 +92,34 @@ button:hover{
     color: #ffffff;
 }
 
+@media screen and (max-width: 920px) {
+    .parent{
+        width: 612px;
+    }
+
+    .child1{
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }   
+    .child3{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .parent{
+        width: 306px;
+    }
+
+    .child1{
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }  
+
+    .child3{
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+}
+

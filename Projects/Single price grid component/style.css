@@ -24,7 +24,7 @@ body{
 }
 
 .child1{
-    width: 640%;
+    width: 640px;
     height: 170px;
     padding-left: 40px;
     padding-right: 40px;
@@ -149,60 +149,34 @@ button{
 }
 
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 660px) {
     .parent{
-        border: none;
-    }
-    
+    width: 312px;
+}
+
     .child1{
         border-top-left-radius: 6px;    
         border-top-right-radius: 6px;    
-        width: 400px;
-        height: 300px;
-    
-    }
-    
+        width: 256px;
+        height: 212px;
+        padding: 28px;
+}
+
     .child2{
-        width: 400px;
-        height: 300px;
-        border-radius: none;
-    }
-    
+        width: 256px;
+        height: 172px;
+        padding: 28px;
+        border-bottom-left-radius: 0;
+}
+
     .child3{
         border-bottom-left-radius: 6px;    
         border-bottom-right-radius: 6px;
-        height: 300px;
-        width: 400px;
-    }
-    
-    }
-
-
-@media screen and (max-width: 376px) {
-.parent{
-    border: none;
-}
-
-.child1{
-    border-top-left-radius: 6px;    
-    border-top-right-radius: 6px;    
-    width: 232px;
-    height: 222px;
-
-}
-
-.child2{
-    width: 232px;
-    height: 222px;
-    border-radius: none;
-
-}
-
-.child3{
-    border-bottom-left-radius: 6px;    
-    border-bottom-right-radius: 6px;
-    height: 222px;
-    width: 232px;
+        height: 172px;
+        width: 256px;
+        padding: 28px;
 }
 
 }
