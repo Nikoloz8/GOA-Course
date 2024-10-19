@@ -86,3 +86,15 @@ h3{
     font-weight: 800;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 400px) {
+    
+    .box{
+        width: 301px;
+        height: 476px;
+    }
+
+    svg{
+        width: 100%;
+    }
+}

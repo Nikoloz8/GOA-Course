@@ -17,16 +17,96 @@ body{
 img{
     width: 300px;
     height: 450px;
-    margin: -32px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-right: 32px;
 }
 
 .box{
+    display: flex;
     border-radius: 10px;
-    height: 386px;
-    width: 536px;
+    height: 450px;
+    width: 600px;
     background-color: #ffffff;
+}
+
+.content{
+    width: 236px;
+    height: 386px;
     padding: 32px;
+}
+
+h3{
+    font-family: Montserrat;
+    font-size: 12px;
+    color: #9192a4;
+    font-weight: 500;
+    display: inline;
+}
+
+h1{
+    font-size: 32px;
+    font-family: Fraunces;
+    margin-top: 24px;
+    color: #192126;
+    line-height: 1.1;
+}
+
+p{
+    margin-top: 32px;
+    font-family: Montserrat;
+    color: #afb0b5;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.price{
+    display: flex;
+    margin-top: 32px;  
+    align-items: center;
+}
+
+.price-after{
+    font-family: Fraunces;
+    color: #3b8167;
+    font-size: 28px;
+    display: inline;
+}
+
+.price-before{
+    display: inline;
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-left: 20px;
+    font-family: Fraunces;
+    color: #75747a;
+    font-weight: 400;
+}
+
+button{
+    height: 48px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-top: 32px;
+    background-color: #3d8168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    margin-bottom: ;
+}
+
+h4{
+    display: inline;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #1a4031;
 }
