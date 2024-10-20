@@ -87,7 +87,7 @@ h3{
     margin-left: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     
     .box{
         width: 301px;

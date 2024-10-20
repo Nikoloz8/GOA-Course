@@ -35,7 +35,7 @@ h1{
     margin-top: 32px;
 }
 
-p{
+.description{
     margin-top: 24px;
     font-family: Outfit;
     color: #69665f;
@@ -44,9 +44,12 @@ p{
 .time{
     padding: 28px;
     line-height: 2;
+    background-color: #fff7fc;
+    border-radius: 12px;
+    margin-top: 40px;
 }
 
-.time-ul{
+.time ul{
     margin-left: 24px;
 }
 
@@ -67,7 +70,7 @@ h3{
     font-family: Outfit;
 }
 
-.time-list-element{
+.time-element{
     display: inline;
     color: #605750;
     font-family: Outfit;
@@ -76,8 +79,142 @@ h3{
 
 .time-element-value{
     display: inline;
+    color: #797676;
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+.ingredients h2{
+    font-family: Young Serif;
+    font-weight: 400;
+    color: #804831;
+    margin-top: 32px;
+}
+
+.ingredients ul{
+    margin-left: 20px;
+    margin-top: 24px;
+    line-height: 2;
+}
+
+.ingredients li{
+    color: #804831;
+}
+
+.ingredients h4{
+    font-size: 14px;
+    color: #756d6d;
+    font-family: Outfit;
+    font-weight: 500;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #e0e0e0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.instructions h2{
+    font-family: Young Serif;
+    font-weight: 400;
+    color: #804831;
+    margin-top: 32px;
+}
+
+.instructions p{
+    display: inline;
+    line-height: 1.5;
     color: #756d6d;
     font-family: Outfit;
     font-weight: 400;
-    font-size: ;
+}
+
+.instructions h4{
+    line-height: 1.5;
+    display: inline;
+    color: #605750;
+    font-family: Outfit;
+    font-weight: 600;
+}
+
+.instructions ol{
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-top: 24px;
+    color: #804831;
+    font-family: Outfit;
+    font-weight: 700;
+}
+
+.nutritions h2{
+    font-family: Young Serif;
+    font-weight: 400;
+    color: #804831;
+}
+
+.nutritions p{
+    font-family: Outfit;
+    font-weight: 400;
+    color: #605750;
+    margin-top: 24px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+th{
+    padding-left: 32px;
+    color: #605750;
+    font-weight: 500;
+}
+
+td{
+    color: #804831;
+    font-weight: 700;
+}
+
+
+.value {
+    justify-content: space-around;
+}
+
+.fat th{
+    border-bottom: none;
+}
+
+.fat td{
+    border-bottom: none;
+}
+
+@media screen and (max-width: 800px) {
+    .box{
+        width: 315px;
+        padding: 30px;
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    img{
+        border-radius: 0;
+        width: 375px;
+        height: 170px;
+        margin: -30px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
 }

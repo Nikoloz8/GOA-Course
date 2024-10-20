@@ -101,13 +101,18 @@ a{
 }
 
 .cancel{
-    width: 100%;
     border: none;
-    margin-top: 36px;
     font-family: Red Hat Display;
     color: #76819f;
     font-weight: 700;
     background-color: #ffffff;
+}
+
+.cancel-button-box{
+    width: 100%;
+    margin-top: 36px;   
+    display: flex;
+    justify-content: center;
 }
 
 a:hover{
@@ -123,7 +128,7 @@ a:hover{
     color: #101449;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     body{
     background-color: #e0e8ff;
     background-image: url(./image/pattern-background-desktop.svg);

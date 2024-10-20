@@ -107,7 +107,7 @@ button:hover{
     background-color: #1a4031;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     img{
         height: 240px;
         width: 340px;
