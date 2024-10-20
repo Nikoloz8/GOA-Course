@@ -24,8 +24,10 @@ body{
     box-shadow: 9px 6px 1px #000000; /* ჰორიზონტალური, ვერტიკალური, გაბლარვის რადიუსი, ფერი */
 }
 
-svg{
+.illustration-article{
     border-radius: 10px;
+    width: 336px;
+    height: 201px;
 }
 
 button{
@@ -74,7 +76,7 @@ p{
     align-items: center;
 }
 
-img{
+.avatar{
     width: 32px;
     height: 32px;
 }
@@ -94,7 +96,7 @@ h3{
         height: 476px;
     }
 
-    svg{
+    .illustration-article{
         width: 100%;
     }
 }
