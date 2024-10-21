@@ -10,7 +10,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    height: 97vh;  /* viewport height 97% (100-ზე scroll უჩნდებოდა), ეს ელემენტის სიმაღლეს ხდის ბრაუზერის ფანჯრის სიმაღლის ტოლს */
+    height: 100vh;  /* viewport height 100% - ეს ელემენტის სიმაღლეს ხდის ბრაუზერის ფანჯრის სიმაღლის ტოლს */
     align-items: center;
 }
 
