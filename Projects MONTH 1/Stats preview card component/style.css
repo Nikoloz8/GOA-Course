@@ -20,7 +20,6 @@ body{
     background-color: #1c1938;
     border-radius: 6px;
     display: flex;
-    justify-content: space-around;
 }
 
 img{
@@ -91,15 +90,55 @@ h3{
 @media screen and (max-width: 1000px){
     .box{
         width: 327px;
-        height: 780px;
+        height: 716px;
+        display: flex;
+        flex-direction: column;
     }
 
     .content-container{
-        padding: 0;
+        width: 263px;
+        padding: 32px;
+        text-align: center;
+    }
+
+    .img-container{
+        order: -1;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 0;
+        height: 240px;
     }
 
     img{
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
         width: 327px;
-        height: 3px;
+        height: 100%;
+    }
+
+    .stats{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 32px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        margin-top: 16px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .companies{
+        margin-bottom: 20px;
+    }
+
+    .templates{
+        margin-bottom: 20px;
     }
 }
