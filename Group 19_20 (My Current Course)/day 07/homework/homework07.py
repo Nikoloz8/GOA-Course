@@ -22,7 +22,7 @@ print(num1 < num8, num2 > num3, num4 > num1, num5 < num6, num7 < num8, num8 > nu
 #3) დაწერეთ True და False ყველა შესაძლო ვარიანტი and და or ოპერატორებზე
 #  მაგ: True and False = False
 #               True or False = True
-# და ეს ყველაფერი დაპრინტეთ მაგ:  print(True and False) # False
+# და ეს ყველაფერი დაპრინტეთ მაგ:  print(True and False) #False
 
 True and False
 False and False
