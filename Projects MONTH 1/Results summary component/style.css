@@ -183,7 +183,11 @@ button:hover{
 @media screen and (max-width: 600px){
     .box{
         width: 375px;
-        height: 810px;
+        height: auto;
+    }
+
+    .container{
+        height: auto;
     }
 
     .box-item1{
@@ -197,6 +201,16 @@ button:hover{
 
     .box-item1 h2{
         font-size: 16px;
+        width: 100%;
+    }
+
+    .content h2{
+        font-size: 24px;
+        margin-top: 1px;
+    }
+
+    .content p{
+        font-size: 14px;
     }
 
     .box-item2{
@@ -214,6 +228,10 @@ button:hover{
 
     button{
         width: 314px;
+    }
+
+    .box-item2{
+        padding: 24px;
     }
 
 }
